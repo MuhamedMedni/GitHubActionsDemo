@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.extint_github_globalscript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>extint_github_globalscript</name>
+        <script><![CDATA[var extint_github_globalscript = Class.create();
+extint_github_globalscript.prototype = {
+    initialize: function() {
+    },
+//hi some feature
+    type: 'extint_github_globalscript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-11 09:12:22</sys_created_on>
+        <sys_id>aa6c06812f456010a6875e072799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>extint_github_globalscript</sys_name>
+        <sys_package display_value="GitHubActionsDemo" source="ca4842cd2f056010a6875e072799b6bd">ca4842cd2f056010a6875e072799b6bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHubActionsDemo">ca4842cd2f056010a6875e072799b6bd</sys_scope>
+        <sys_update_name>sys_script_include_aa6c06812f456010a6875e072799b628</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-11 09:12:22</sys_updated_on>
+    </sys_script_include>
+</record_update>
