@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>false</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -30,6 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	gs.addInfoMessage("Hello");
+	//HELLO
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -38,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73cc1a4d2f456010a6875e072799b66f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="GitHubActionsDemo" source="ca4842cd2f056010a6875e072799b6bd">ca4842cd2f056010a6875e072799b6bd</sys_package>
@@ -46,9 +47,9 @@
         <sys_scope display_value="GitHubActionsDemo">ca4842cd2f056010a6875e072799b6bd</sys_scope>
         <sys_update_name>sys_script_73cc1a4d2f456010a6875e072799b66f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-11 10:23:43</sys_updated_on>
+        <sys_updated_on>2020-12-11 11:03:56</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=73cc1a4d2f456010a6875e072799b66f"/>
 </record_update>
